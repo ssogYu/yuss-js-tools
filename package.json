@@ -1,7 +1,7 @@
 {
-  "name": "rollup-template",
+  "name": "yuss-ts-cli",
   "version": "0.0.1",
-  "description": "基于rollup+typescript打包工具",
+  "description": "前端工具库",
   "main": "./dist/index.js",
   "module": "./dist/index.esm.js",
   "umd": "./dist/index.umd.js",
@@ -16,7 +16,15 @@
   "files": [
     "dist"
   ],
-  "author": "",
+  "keywords": [
+    "tool",
+    "javascript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ssogYu/yuss-js-tools.git"
+  },
+  "author": "tankswift",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.21.8",
