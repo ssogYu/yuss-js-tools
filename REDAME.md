@@ -1,1 +1,1 @@
-**基于rollup+Typescript 通用打包模板**
+**JavaScript工具库**

@@ -2,10 +2,10 @@
   "name": "yuss-ts-cli",
   "version": "0.0.1",
   "description": "前端工具库",
-  "main": "./dist/index.js",
-  "module": "./dist/index.esm.js",
-  "umd": "./dist/index.umd.js",
-  "types": "./dist/types/index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "umd": "dist/index.umd.js",
+  "types": "dist/types/index.d.ts",
   "scripts": {
     "clean": "rimraf dist",
     "build:types": "npm run clean && tsc -b ./tsconfig.types.json",
@@ -18,7 +18,9 @@
   ],
   "keywords": [
     "tool",
-    "javascript"
+    "javascript",
+    "typescript",
+    "rollup"
   ],
   "repository": {
     "type": "git",
