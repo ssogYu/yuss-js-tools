@@ -30,9 +30,7 @@ const config = {
     rollupTypescript(),
     babel({
       babelHelpers: "runtime",
-
       exclude: "node_modules/**",
-
       extensions: [...DEFAULT_EXTENSIONS, ".ts"],
     }),
   ],
