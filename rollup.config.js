@@ -19,7 +19,7 @@ const config = {
       format: "es",
     },
     {
-      name: "RollupTsTemplate",
+      name: "yussJsTool",
       file: pkg.umd,
       format: "umd",
     },
@@ -30,7 +30,7 @@ const config = {
     rollupTypescript(),
     babel({
       babelHelpers: "runtime",
-      exclude: "node_modules/**",
+      exclude: ["node_modules/**",'test'],
       extensions: [...DEFAULT_EXTENSIONS, ".ts"],
     }),
   ],
